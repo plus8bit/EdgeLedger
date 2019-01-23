@@ -45,6 +45,11 @@ p {
   color: #fff;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .l-heading {
    font-size: 4rem;
    margin-bottom: 0.75rem;
@@ -77,6 +82,7 @@ p {
   padding: 0.5rem 2rem;
   border-radius: 5px;
   border: none;
+  outline:none;
 }
 
 .btn:hover {
@@ -178,7 +184,7 @@ p {
   background: url('../img/people.jpg') no-repeat center center/cover ;
 }
 
-/* Clients */
+/* Section Clients */
 #clients .items {
   display: flex;
 }
@@ -186,5 +192,28 @@ p {
 #clients .items img {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 50%;
+}
+
+/* Section Contact */
+#contact {
+  display: flex;
+}
+
+#contact .map, #contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block; 
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
